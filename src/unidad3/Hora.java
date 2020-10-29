@@ -47,6 +47,8 @@ public class Hora {
 				}
 			}
 			teclado.nextLine(); //consume un intro para Evitar problema que habia porque no esperaba a introducir las horas en 2º vueltas.
+			//Esto es porque nextInt no consume el intro ??. Si fuesen todo nextline no habria problema como en el caso de Bisiesto.
 		} while (masHoras);
 	}
+
 }
