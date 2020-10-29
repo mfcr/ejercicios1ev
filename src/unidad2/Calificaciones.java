@@ -14,6 +14,9 @@ public class Calificaciones {
 		
 		//Asimismo al usar la clase BufferedReader como entrada, perdemos el control de tipos de entrada 
 		//   que hace la clase Scanner con los metodos nextDouble() (en este caso) para evitar errores de tipado ej: usuario mete un String.
+		
+		//NOTA: parseDouble usa notacion USA para los formatos, es decir, usa . para decimales.
+		
 		double notaMates=0, notaFisica=0, notaQuimica=0, notaMedia;
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("Introduzca la nota del exámen de Matemáticas: ");

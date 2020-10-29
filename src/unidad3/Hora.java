@@ -13,7 +13,6 @@ public class Hora {
 		int hora,minuto,segundo;
 		String txt;
 		do {
-			masHoras=true;
 			System.out.println("Introduzca una hora o nada para salir:");
 			txt=teclado.nextLine();
 			if (txt.length()==0) {
@@ -49,6 +48,5 @@ public class Hora {
 			}
 			teclado.nextLine(); //consume un intro para Evitar problema que habia porque no esperaba a introducir las horas en 2º vueltas.
 		} while (masHoras);
-		System.out.println("Salio del bucle. "+masHoras);
 	}
 }
